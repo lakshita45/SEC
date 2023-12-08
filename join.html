@@ -1,0 +1,91 @@
+<html>
+<head>
+  <title>REGITERATION FROM </title>
+  <link rel="stylesheet" href="shett.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: sans-serif;
+    }
+
+    .container {
+      width: 400px;
+      margin: 0 auto;
+    }
+
+    .form-control {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+    }
+
+    .submit-button {
+      background-color: #000;
+      color: #fff;
+      padding: 10px;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+<center>
+    
+<div class="container">
+    <h1 style="background-color: rgb(23, 0, 87); color: aqua;">Student Registration Form</h1>
+  <br>
+    <form action="/" method="post">
+      <div class="form-group">
+        <label for="name"><b>Name</b></label>
+        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+      </div>
+  <br>
+      <div class="form-group">
+        <label for="email"><b>Email</b></label>
+        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+      </div>
+  <br>
+      <div class="form-group">
+        <label for="course"><b>Course</b></label>
+        <select class="form-control" id="course">
+          <option value="Computer Science">Computer Science</option>
+          <option value="Mathematics">Mathematics</option>
+          <option value="English">Physics</option>
+          <option value="History">BMS</option>
+          <option value="History">Bcom</option>
+          <option value="History">Psychology</option>
+          <option value="History">Electronics</option>
+        </select>
+      </div>
+  <br>
+      <div class="form-group">
+        <label for="gender"><b>Gender</b></label>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label>
+      </div>
+  <br>
+      <div class="form-group">
+        <label for="interests"><b>Interests</b></label>
+        <input type="checkbox" id="coding" name="interests" value="coding">
+        <label for="coding">Coding</label>
+        <input type="checkbox" id="sports" name="interests" value="sports">
+        <label for="sports">Sports</label>
+        <input type="checkbox" id="music" name="interests" value="music">
+        <label for="music">Music</label>
+      </div>
+  <br><br>
+      <button type="submit" class="submit-button">Submit</button>
+      <a href="result.html"></a>
+      
+    </form>
+  </div>
+  
+  
+</center>
+</body>
+</html>
