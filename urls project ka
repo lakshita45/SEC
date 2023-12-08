@@ -1,2 +1,2 @@
 from django.urls import include,path
-path('apple/',include('apple.url'))
+path('apple/',include('apple.urls'))
