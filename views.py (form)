@@ -1,0 +1,5 @@
+def join(request):
+    return render(request,'join.html',{})
+
+def result(request):
+    return render(request,'result.html')
